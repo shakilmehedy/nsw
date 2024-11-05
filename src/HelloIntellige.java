@@ -4,9 +4,9 @@ public class HelloIntellige {
 
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Hello");
+        System.out.println("Hello");
         //System.out.println("Hi NSW this is Mehedy:");
-        String message = scanner.nextLine();
+        String message = new String();
         message="David";
         System.out.println(message);
     }
