@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class HelloIntellige {
 
     public static void main(String[]args){
-        System.out.println("Hello there");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input");
+        String message = scanner.nextLine();
+        System.out.println("You have inputted:" + message);
+        scanner.close();
+
     }
 }
